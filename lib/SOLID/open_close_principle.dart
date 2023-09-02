@@ -47,14 +47,14 @@ abstract class SaveInformation {
 class LocalStorage implements SaveInformation {
   @override
   void saveUserInformation(User user) {
-    print("Saved on Local Storage $user");
+    print("Saved on Local Storage: $user");
   }
 }
 
 class CloudStorage implements SaveInformation {
   @override
   void saveUserInformation(User user) {
-    print("Save on Cloud Storage $user");
+    print("Save on Cloud Storage: $user");
   }
 }
 
